@@ -1,5 +1,7 @@
 # React Student Manager
 
+[Live Demo](https://mohammed-laabidi.github.io/react-students-manager/)
+
 A comprehensive student management system built with React, designed to efficiently manage student records, search for students, and maintain an organized database.
 
 ## 🚀 Features
