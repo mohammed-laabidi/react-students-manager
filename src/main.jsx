@@ -1,0 +1,9 @@
+import { createRoot } from 'react-dom/client'
+import { AppProvider } from './Context/AppContext.jsx'
+import App from './App.jsx'
+
+createRoot(document.getElementById('root')).render(
+    <AppProvider>
+      <App />
+    </AppProvider>
+)
