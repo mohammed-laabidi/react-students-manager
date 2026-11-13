@@ -7,11 +7,15 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+gitlab-runner.exe
 node_modules
 dist
 dist-ssr
 *.local
-
+config.toml
+.runner_system_id
+.gitlab-ci.yml
+.scannerwork
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

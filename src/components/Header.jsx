@@ -2,7 +2,7 @@ import { COLORS } from "../COLORS"
 
 export default function Header({handleClickOpenMenu}) {
     return (
-        <header className="w-full flex gap-5">
+        <header className="w-full flex items-center justify-between gap-5">
             
             <button className={"sm:hidden"} onClick={handleClickOpenMenu}>
                 <i className={"fa-solid fa-bars text-2xl"}/>
@@ -22,6 +22,8 @@ export default function Header({handleClickOpenMenu}) {
                     Student Management
                 </p>
             </div>
+
+            <h2 className="text-2xl">Hello, Mohammed Laabidi</h2>
         </header>
     )
 }
