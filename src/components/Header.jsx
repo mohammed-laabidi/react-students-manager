@@ -2,7 +2,7 @@ import { COLORS } from "../COLORS"
 
 export default function Header({ handleClickOpenMenu }) {
     return (
-        <header className="w-full flex flex-col items-start md:items-center justify-start gap-5">
+        <header className="w-full flex flex-col md:flex-row items-start md:items-center justify-between gap-5">
 
 
 
@@ -21,7 +21,7 @@ export default function Header({ handleClickOpenMenu }) {
                 </div>
 
                 <p
-                    className="text-gray-300 ml-10"
+                    className="text-gray-300 ml-10 md:ml-0"
                     style={{ color: COLORS.text }}>
                     Student Management
                 </p>
