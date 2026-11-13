@@ -36,6 +36,25 @@ The application runs entirely in the browser. There is no backend, remote API, o
 
 The dashboard is small in scope: one screen covers the complete workflow, from adding a record to reviewing activation metrics. Because all data stays in the browser, the project is suited to local use, demonstrations, and prototypes rather than multi-user production record keeping.
 
+## Demo
+
+<div align="center">
+
+<img src="docs/demo.png" alt="React Student Manager dashboard with sample student records" width="784" />
+
+</div>
+
+The live demo is available at **[mohammed-laabidi.github.io/react-students-manager](https://mohammed-laabidi.github.io/react-students-manager/)**.
+
+The screenshot uses sample data. Try the full flow:
+
+- Add a student with a valid email address.
+- Toggle a student between active and inactive and watch the summary cards update.
+- Search by name and combine the search with the status filter.
+- Reload the page to confirm that the list is restored from `localStorage`.
+
+No account or backend is required. Changes stay in the browser used to open the demo.
+
 ## Features
 
 <table>
@@ -206,6 +225,8 @@ flowchart TD
 
 ```text
 react-student-manager/
+├── docs/
+│   └── demo.png
 ├── public/
 ├── src/
 │   ├── components/
@@ -273,12 +294,6 @@ The first command writes the optimized build to `dist/`. The second serves that 
 | `npm run deploy` | Build the project and publish `dist/` to the `gh-pages` branch |
 
 The `predeploy` lifecycle script runs `npm run build` automatically before `npm run deploy`.
-
-## Live Demo
-
-The current build is available at [mohammed-laabidi.github.io/react-students-manager](https://mohammed-laabidi.github.io/react-students-manager/).
-
-On a first visit, the demo opens with sample records. Any changes made there are stored in the browser used to open the page; no data is sent to a server.
 
 ## Usage
 
