@@ -344,7 +344,25 @@ There is no automated test command in the project. Verify behavior manually in t
 
 ## License
 
-This project is licensed under the MIT License.
+No license file is included in this repository. Add a license before redistributing the code.
+
+## Author
+
+<table>
+<tr>
+<td valign="top">
+
+**Mohammed Laabidi**
+
+<a href="https://github.com/mohammed-laabidi"><img src="https://api.iconify.design/lucide/github.svg?color=%23415EFC" width="18" height="18" alt="GitHub" /> GitHub</a>
+&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/mohammed-laabidi-793a40436"><img src="https://api.iconify.design/lucide/linkedin.svg?color=%23415EFC" width="18" height="18" alt="LinkedIn" /> LinkedIn</a>
+&nbsp;&nbsp;
+<a href="mailto:mohammed-laabidi@gmail.com"><img src="https://api.iconify.design/lucide/mail.svg?color=%23415EFC" width="18" height="18" alt="Email" /> Email</a>
+
+</td>
+</tr>
+</table>
 
 <div align="center">
 
